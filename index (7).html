@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f3e8" />
+  <meta name="description" content="Saim Bashir — Software Engineering student building Android products, polished interfaces, and applied AI experiments." />
+  <title>Saim Bashir | Software Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Saim Bashir home">
+      <span class="brand-mark">SB</span>
+      <span class="brand-copy"><strong>Saim Bashir</strong><small>Software Engineering</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="availability" href="#contact"><i></i> Open to opportunities</a>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    </div>
+    <div class="mobile-nav" aria-hidden="true">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <div class="hero-label"><span>SOFTWARE ENGINEERING STUDENT</span><i></i><span>LAHORE, PAKISTAN</span></div>
+        <h1>Building useful software with <em>care, clarity, and curiosity.</em></h1>
+        <p class="hero-text">I’m Saim Bashir, a Software Engineering student who enjoys turning ideas into useful software. I’m especially passionate about Android development, clean interfaces, problem solving, and learning how thoughtful software engineering can improve everyday experiences.</p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#work">Explore selected work <span>↘</span></a>
+          <a class="button ghost" href="assets/documents/resume.pdf" target="_blank" rel="noreferrer">View resume ↗</a>
+        </div>
+        <div class="hero-proof" aria-label="Quick highlights">
+          <div><strong>02</strong><span>Google Play releases</span></div>
+          <div><strong>RN</strong><span>React Native + Expo</span></div>
+          <div><strong>AI</strong><span>RAG · OCR · Agents</span></div>
+          <div><strong>SE</strong><span>BS Software Engineering</span></div>
+        </div>
+      </div>
+
+      <aside class="profile-panel reveal" aria-label="Profile summary">
+        <div class="profile-panel-head"><span>PROFILE / 2026</span><span class="live-dot"><i></i> Building now</span></div>
+        <div class="portrait-wrap">
+          <div class="portrait-frame">
+            <img src="assets/profile-saim-white.webp" alt="Saim Bashir" />
+          </div>
+          <span class="portrait-caption">Software Engineering · Android Development · Product Thinking</span>
+        </div>
+        <div class="profile-content">
+          <div><small>Current direction</small><strong>Android products + applied AI systems</strong></div>
+          <p>I enjoy taking an idea from requirements and interface design through implementation, testing, debugging, and release preparation. I am passionate about software engineering because it lets me combine creativity, logic, and continuous learning to build meaningful digital products.</p>
+          <div class="profile-links"><a href="https://github.com/saimbashir" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/saim-bashir-090097374/?isSelfProfile=true" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="capability-rail" aria-label="Technology focus">
+      <div class="capability-marquee">
+        <div class="capability-track">
+          <span>React Native</span><i></i><span>Expo</span><i></i><span>Android</span><i></i><span>JavaScript</span><i></i><span>Python</span><i></i><span>C++</span><i></i><span>SQL</span><i></i><span>RAG</span><i></i><span>Git / GitHub</span><i></i><span>UI / UX</span><i></i><span>Problem Solving</span><i></i><span>Traveling</span>
+        </div>
+        <div class="capability-track" aria-hidden="true">
+          <span>React Native</span><i></i><span>Expo</span><i></i><span>Android</span><i></i><span>JavaScript</span><i></i><span>Python</span><i></i><span>C++</span><i></i><span>SQL</span><i></i><span>RAG</span><i></i><span>Git / GitHub</span><i></i><span>UI / UX</span><i></i><span>Problem Solving</span><i></i><span>Traveling</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section shell">
+      <div class="section-head reveal">
+        <div class="section-title"><span>01</span><div><p>SELECTED WORK</p><h2>Projects with a clear purpose.</h2></div></div>
+        <p>Published mobile apps, practical AI experiments, and academic engineering projects built while I continue growing as a software engineer.</p>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Project filters">
+        <button class="active" data-filter="all">All projects</button><button data-filter="mobile">Mobile</button><button data-filter="ai">Applied AI</button><button data-filter="academic">Academic</button>
+      </div>
+      <div id="project-grid" class="project-grid"></div>
+    </section>
+
+    <section id="about" class="section shell">
+      <div class="section-head reveal">
+        <div class="section-title"><span>02</span><div><p>ABOUT</p><h2>Student mindset. Product discipline.</h2></div></div>
+        <p>I enjoy learning by building complete products, testing them carefully, and improving them through iteration. Software engineering is the field that excites me most because it allows me to solve real problems with both technical thinking and user-focused design.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="large">I’m a Software Engineering undergraduate who enjoys building software that moves beyond coursework into something people can actually use.</p>
+          <p>My strongest hands-on experience is in <strong>React Native, Expo, Android testing, UI iteration, local app state, APIs, notifications, and release workflows</strong>. Alongside mobile work, I’m studying databases, networks, algorithms, AI, and retrieval-based systems. I’m passionate about software engineering because it gives me a structured way to keep learning, build useful products, and turn ideas into working solutions.</p>
+          <p>I use AI tools for research, debugging, comparison, and iteration while keeping the final product decisions and verification grounded in the software I build.</p>
+        </div>
+        <div class="facts reveal">
+          <article><span>Education</span><b>BS Software Engineering</b><p>COMSATS University Islamabad · Lahore Campus<br>Expected completion: January 2029</p></article>
+          <article><span>Shipping experience</span><b>Independent Android Development</b><p>Two Google Play releases plus ongoing Android projects and testing-track work.</p></article>
+          <article><span>Current technical focus</span><b>Mobile + Applied AI</b><p>React Native · Expo · Android · RAG · OCR · vector retrieval · agent orchestration concepts · curiosity for travel and exploration.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head reveal">
+        <div class="section-title"><span>03</span><div><p>ENGINEERING FOCUS</p><h2>A practical toolkit, still growing.</h2></div></div>
+        <p>Tools and disciplines I actively use in coursework or personal development.</p>
+      </div>
+      <div class="skills-grid reveal">
+        <article><span>01</span><h3>Mobile product development</h3><p>React Native, Expo, Android, responsive UI, local persistence, notifications, interaction feedback, release builds and Play Console workflows.</p></article>
+        <article><span>02</span><h3>Applied AI systems</h3><p>Python, AI APIs, RAG, OCR, embeddings, vector search, prompt design, evaluation concepts and early multi-agent orchestration.</p></article>
+        <article><span>03</span><h3>Software foundations</h3><p>C++, Java, data structures, algorithms, SQL, debugging, databases, networking fundamentals and structured problem solving.</p></article>
+        <article><span>04</span><h3>Delivery and quality</h3><p>Git/GitHub, device testing, incremental implementation, responsive QA, error handling, iteration, documentation and release preparation.</p></article>
+      </div>
+    </section>
+
+    <section id="journey" class="section shell">
+      <div class="section-head reveal">
+        <div class="section-title"><span>04</span><div><p>JOURNEY</p><h2>Progress through building.</h2></div></div>
+        <p>A concise timeline of how coursework turned into more complete software projects.</p>
+      </div>
+      <ol class="timeline reveal">
+        <li><span>Feb 2025</span><div><b>Started BS Software Engineering</b><p>Began formal software engineering studies at COMSATS University Islamabad, Lahore Campus.</p></div></li>
+        <li><span>Semester 1</span><div><b>Cafe Management System</b><p>Converted programming fundamentals into a complete C++ ordering and billing workflow.</p></div></li>
+        <li><span>Semester 2</span><div><b>Game development + multi-agent AI exploration</b><p>Built interactive Java/game work and explored a simple multi-model consultation idea to understand AI orchestration.</p></div></li>
+        <li><span>Semester 3</span><div><b>Data structures in practice</b><p>Built a Grocery Management System using linked lists, stacks, and queues.</p></div></li>
+        <li><span>2025–26</span><div><b>Moved into Android publishing</b><p>Built React Native / Expo applications, tested on devices, and worked through Google Play release workflows.</p></div></li>
+        <li><span>Now</span><div><b>Mobile products + applied AI</b><p>Continuing Android product work while studying databases, networks, algorithms, AI, retrieval, and agentic systems.</p></div></li>
+      </ol>
+    </section>
+
+    <section id="contact" class="section shell contact-section">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Have a project, internship, or collaboration worth discussing?</h2>
+        <p>I’m open to software engineering internships, development opportunities, collaborations, and interesting product ideas.</p>
+        <div class="contact-links"><a href="mailto:saimbashirkhan25@gmail.com">saimbashirkhan25@gmail.com ↗</a><a href="https://github.com/saimbashir" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/saim-bashir-090097374/?isSelfProfile=true" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      </div>
+      <form id="contact-form" class="contact-form reveal">
+        <div class="form-head"><span>START A CONVERSATION</span><i></i></div>
+        <label>Name<input name="name" required placeholder="Your name" /></label>
+        <label>Email<input name="email" type="email" required placeholder="you@example.com" /></label>
+        <label>Message<textarea name="message" rows="5" required placeholder="Tell me about the opportunity or project…"></textarea></label>
+        <button class="button primary" type="submit">Send message ↗</button>
+        <small>Opens your email app. This static portfolio does not store your message.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="shell"><span>© <span id="year"></span> Saim Bashir</span><span>Responsive across desktop + mobile</span></footer>
+
+  <div id="modal-backdrop" class="modal-backdrop" hidden></div>
+  <aside id="project-modal" class="project-modal" aria-hidden="true" aria-modal="true" role="dialog">
+    <button id="modal-close" class="modal-close" aria-label="Close project details">×</button>
+    <div id="modal-content"></div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
