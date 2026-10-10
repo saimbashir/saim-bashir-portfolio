@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-agent consultation workflow</title>
+  <desc id="desc">A user query is routed to several independent AI agents, their responses are compared by a neutral judge, and one recommendation is returned.</desc>
+  <rect width="1200" height="720" rx="36" fill="#fbf8ee"/>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#e6efe1"/><stop offset="1" stop-color="#f7f1df"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#6e8d72"/></marker>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#294a35" flood-opacity=".08"/></filter>
+  </defs>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#173c2c}.small{font-size:18px;fill:#6c7c72}.title{font-size:34px;font-weight:700}.label{font-size:21px;font-weight:700}.mono{font-family:Consolas,monospace;font-size:15px;letter-spacing:1px;fill:#52715d}.box{fill:#fffdf7;stroke:#c9d7c5;stroke-width:2;filter:url(#soft)}.input{stroke:#7f9e76}.judge{fill:url(#g1);stroke:#527a59}.output{stroke:#2f6a4b}.line{fill:none;stroke:#6e8d72;stroke-width:3;marker-end:url(#arrow)}.chip{fill:#e5eee0}.chipText{font-family:Consolas,monospace;font-size:13px;font-weight:700;fill:#426b4d}.score{fill:#eef3e9;stroke:#d3dfcf}.scoreText{font-size:14px;fill:#5f7165}
+  </style>
+  <rect x="62" y="38" width="226" height="34" rx="17" class="chip"/><text x="82" y="60" class="chipText">SEMESTER 02 · AI PROJECT</text>
+  <text x="62" y="120" class="title">Multi-Agent Consultation Workflow</text>
+  <text x="62" y="154" class="small">One question · independent perspectives · neutral comparison · final recommendation</text>
+
+  <rect x="55" y="286" width="205" height="122" rx="20" class="box input"/>
+  <text x="79" y="322" class="mono">01 · USER QUERY</text>
+  <text x="79" y="360" class="label">Ask once</text>
+  <text x="79" y="390" class="small">Shared prompt</text>
+
+  <rect x="345" y="206" width="222" height="100" rx="20" class="box"/>
+  <rect x="345" y="326" width="222" height="100" rx="20" class="box"/>
+  <rect x="345" y="446" width="222" height="100" rx="20" class="box"/>
+  <text x="372" y="240" class="mono">02A · AGENT</text><text x="372" y="276" class="label">Perspective A</text>
+  <text x="372" y="360" class="mono">02B · AGENT</text><text x="372" y="396" class="label">Perspective B</text>
+  <text x="372" y="480" class="mono">02C · AGENT</text><text x="372" y="516" class="label">Perspective C</text>
+
+  <rect x="662" y="284" width="252" height="156" rx="24" class="box judge"/>
+  <text x="691" y="322" class="mono">03 · NEUTRAL JUDGE</text>
+  <text x="691" y="362" class="label">Compare responses</text>
+  <text x="691" y="394" class="small">Relevance · correctness</text>
+  <text x="691" y="420" class="small">Completeness · reasoning</text>
+
+  <rect x="960" y="302" width="188" height="120" rx="22" class="box output"/>
+  <text x="984" y="338" class="mono">04 · RESULT</text>
+  <text x="984" y="374" class="label">Recommendation</text>
+  <text x="984" y="402" class="small">with rationale</text>
+
+  <path d="M260 347H310V256H345" class="line"/><path d="M260 347H345" class="line"/><path d="M260 347H310V496H345" class="line"/>
+  <path d="M567 256H618V326H662" class="line"/><path d="M567 376H662" class="line"/><path d="M567 496H618V400H662" class="line"/><path d="M914 362H960" class="line"/>
+
+  <rect x="662" y="494" width="486" height="116" rx="20" class="score"/>
+  <text x="690" y="528" class="mono">WHAT THE JUDGE LOOKS AT</text>
+  <text x="690" y="561" class="scoreText">Accuracy · relevance · completeness · reasoning quality</text>
+  <text x="690" y="588" class="scoreText">Agreement and differences between candidate answers</text>
+
+  <text x="62" y="674" class="small">Simple project workflow used to explain the multi-agent idea.</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173c2c"/><stop offset="1" stop-color="#456d57"/></linearGradient></defs>
+<rect width="1200" height="675" rx="34" fill="#f7f3e8"/><rect x="58" y="54" width="1084" height="567" rx="30" fill="url(#g3)"/>
+<text x="104" y="125" fill="#cfe1ca" font-family="Arial" font-size="24" font-weight="700">APPLIED AI · MULTIMODAL RETRIEVAL</text><text x="104" y="194" fill="white" font-family="Arial" font-size="54" font-weight="800">Recall Lens AI</text>
+<g font-family="Arial" font-size="20" text-anchor="middle"><rect x="110" y="300" width="170" height="110" rx="20" fill="#fffdf5"/><text x="195" y="365" fill="#173c2c">PDF / Notes</text><rect x="335" y="300" width="170" height="110" rx="20" fill="#fffdf5"/><text x="420" y="365" fill="#173c2c">OCR / Voice</text><rect x="560" y="300" width="170" height="110" rx="20" fill="#e8f0e3"/><text x="645" y="365" fill="#173c2c">Embeddings</text><rect x="785" y="300" width="170" height="110" rx="20" fill="#e2ecdd"/><text x="870" y="365" fill="#173c2c">Vector Search</text></g>
+<path d="M280 355h55M505 355h55M730 355h55" stroke="#99bd8d" stroke-width="8" stroke-linecap="round"/>
+<rect x="380" y="475" width="430" height="90" rx="22" fill="#fffdf5"/><text x="595" y="530" fill="#173c2c" font-family="Arial" font-size="21" font-weight="700" text-anchor="middle">Question → Retrieve → RAG Answer</text>
+</svg>
