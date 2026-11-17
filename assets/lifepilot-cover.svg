@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="LifePilot AI conceptual portfolio cover">
+<defs><linearGradient id="back" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#faf7ef"/><stop offset="1" stop-color="#e6e8df"/></linearGradient><filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="17" stdDeviation="24" flood-color="#1d2932" flood-opacity=".15"/></filter></defs>
+<rect width="1200" height="675" fill="url(#back)"/>
+<circle cx="1090" cy="100" r="260" fill="#bb704b" fill-opacity=".08"/><circle cx="40" cy="655" r="270" fill="#bb704b" fill-opacity=".08"/>
+<rect x="78" y="65" rx="13" width="1044" height="545" fill="#fefefd" stroke="#d7ddd6" filter="url(#shadow)"/>
+<rect x="78" y="65" rx="13" width="1044" height="57" fill="#edf1ed"/>
+<circle cx="111" cy="94" r="7" fill="#d18b77"/><circle cx="134" cy="94" r="7" fill="#deb66c"/><circle cx="157" cy="94" r="7" fill="#8aa891"/>
+<rect x="195" y="83" rx="6" width="350" height="21" fill="#fff" stroke="#d9e1dc"/>
+<rect x="78" y="122" width="234" height="488" fill="#f3f4ef"/>
+<rect x="111" y="155" rx="7" width="150" height="19" fill="#bb704b" fill-opacity=".85"/>
+<rect x="111" y="217" rx="6" width="160" height="35" fill="#dce4dc"/>
+<rect x="111" y="269" rx="6" width="160" height="35" fill="#dfe6dd"/>
+<rect x="111" y="321" rx="6" width="160" height="35" fill="#dfe6dd"/>
+<rect x="111" y="373" rx="6" width="145" height="12" fill="#d2dbd3"/>
+<rect x="111" y="396" rx="6" width="122" height="12" fill="#d2dbd3"/>
+<rect x="351" y="164" rx="6" width="260" height="16" fill="#bb704b" fill-opacity=".3"/>
+<text x="352" y="255" fill="#20372f" font-size="53" font-family="Arial, sans-serif" font-weight="700">LifePilot AI</text>
+<text x="354" y="301" fill="#bb704b" font-size="18" font-family="Arial, sans-serif" font-weight="700" letter-spacing="3">AI EMAIL ASSISTANT</text>
+<rect x="352" y="337" rx="8" width="700" height="105" fill="#f2f5f0" stroke="#d7e1d9"/>
+<rect x="375" y="364" rx="5" width="330" height="13" fill="#d6ded6"/>
+<rect x="375" y="390" rx="5" width="255" height="13" fill="#dce4dc"/>
+<rect x="804" y="362" rx="8" width="211" height="50" fill="#bb704b" fill-opacity=".88"/>
+<rect x="352" y="464" rx="5" width="218" height="15" fill="#d5dfd7"/>
+<rect x="352" y="495" rx="5" width="345" height="15" fill="#e0e7df"/>
+<rect x="352" y="541" rx="8" width="430" height="37" fill="#e8eee8"/>
+<text x="369" y="564" fill="#456050" font-size="15" font-family="Arial, sans-serif">Inbox · Drafts · Approval</text>
+</svg>
