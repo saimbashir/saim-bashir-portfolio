@@ -241,3 +241,28 @@ footer{border-top-color:#d3ddd0}
 body::before{content:none !important;background:none !important;display:none !important}
 body::after{content:none !important;display:none !important;background:none !important;border:0 !important;animation:none !important}
 .profile-panel::after{content:none !important;display:none !important}
+
+
+/* Individual project identities. The portfolio layout and global theme stay unchanged. */
+.project-card[data-id="recall"]{--project-tone:#7a5bd3;border-color:#d8cdf5}
+.project-card[data-id="recall"] .project-media{background:#1a173a}
+.project-card[data-id="recall"] .project-kicker small,.project-card[data-id="recall"] .project-actions a{color:#7052b7}
+.project-card[data-id="recall"] .project-tags li{background:#f4f0ff;border-color:#e8dcff;color:#694d9d}
+.project-card[data-id="campusconnect"]{border-color:#d5e8ed}
+.project-card[data-id="campusconnect"] .project-media{background:#d9f4f2}
+.project-card[data-id="campusconnect"] .project-kicker small,.project-card[data-id="campusconnect"] .project-actions a{color:#087988}
+.project-card[data-id="campusconnect"] .project-tags li{background:#ecfaff;border-color:#d4f0f7;color:#167587}
+.project-card[data-id="lifepilot"]{border-color:#d4e1c9}
+.project-card[data-id="lifepilot"] .project-media{background:#e2efdf}
+.project-card[data-id="lifepilot"] .project-kicker small,.project-card[data-id="lifepilot"] .project-actions a{color:#236a4f}
+.project-card[data-id="lifepilot"] .project-tags li{background:#e9f7ef;border-color:#cae8d7;color:#286b4e}
+.project-card[data-id="societyos"]{border-color:#c9dfec}
+.project-card[data-id="societyos"] .project-media{background:#163f5a}
+.project-card[data-id="societyos"] .project-kicker small,.project-card[data-id="societyos"] .project-actions a{color:#176b99}
+.project-card[data-id="societyos"] .project-tags li{background:#ecf4fa;border-color:#d4e8f5;color:#236c90}
+.project-card[data-id="campuspath"]{border-color:#e7d7bf}
+.project-card[data-id="campuspath"] .project-media{background:#faecd7}
+.project-card[data-id="campuspath"] .project-kicker small,.project-card[data-id="campuspath"] .project-actions a{color:#aa6425}
+.project-card[data-id="campuspath"] .project-tags li{background:#fff4e4;border-color:#f2e3c8;color:#9c6633}
+.project-card[data-id="recall"] .project-media img,.project-card[data-id="societyos"] .project-media img,.project-card[data-id="campuspath"] .project-media img{object-fit:cover}
+@media(prefers-reduced-motion:reduce){.project-card[data-id="recall"] .project-media img,.project-card[data-id="campusconnect"] .project-media img,.project-card[data-id="lifepilot"] .project-media img,.project-card[data-id="societyos"] .project-media img,.project-card[data-id="campuspath"] .project-media img{transition:none}}
