@@ -94,7 +94,6 @@ const projects=[
     body:'Recall Lens AI was built to make fragmented personal information searchable in one place. It extracts content from PDFs, screenshots, notes and voice clips, connects related information using semantic embeddings and vector search, and generates grounded responses with relevant source references. The visual shown is a tailored concept illustration, not a captured live screen.',
     points:['Ingest and extract PDFs, screenshots, images, notes and audio with OCR and transcription','Index semantic embeddings alongside structured SQLite metadata','Search by meaning instead of relying only on exact keywords','Generate retrieval-augmented answers linked to supporting source passages','Organize related notes and concepts with searchable knowledge connections'],
     tech:['Python','RAG','Vector Search','OCR','SQLite'],
-    github:'https://github.com/saimbashir',
     gallery:['assets/recall-lens-interface.svg']
   },
   {
