@@ -144,7 +144,6 @@ const projects=[
     github:'https://github.com/saimbashir/CampusPath-AI',
     gallery:['assets/campuspath-interface.svg']
   }
-  }
 ];
 
 const grid=document.querySelector('#project-grid');
