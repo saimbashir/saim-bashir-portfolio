@@ -88,13 +88,62 @@ const projects=[
     gallery:['assets/apps/pattern-level-circle.jpg','assets/apps/pattern-how-to-play.jpg','assets/apps/pattern-powerups.jpg','assets/apps/pattern-splash.jpg','assets/apps/pattern-play-page.jpg']
   },
   {
-    id:'recall',order:7,category:['ai'],eyebrow:'Applied AI project',title:'Recall Lens AI',sub:'Multimodal personal knowledge retrieval',status:'Applied AI project',
-    cover:'assets/project-research.svg',
-    short:'Search across PDFs, screenshots, notes, images, and voice using OCR, speech-to-text, embeddings, vector search, and RAG.',
-    body:'Recall Lens AI explores how a person can search information saved in many different formats. The prototype combines extraction and semantic retrieval so the user can ask natural-language questions over mixed personal content.',
-    points:['OCR and text extraction','Embeddings and semantic vector retrieval','RAG-style answer generation','Support concept for documents, screenshots, images and voice'],
-    tech:['Python','RAG','OCR','Vector Search','SQLite'],
-    gallery:['assets/project-research.svg']
+    id:'recall',order:7,category:['ai'],eyebrow:'Multimodal AI · completed research prototype',title:'Recall Lens AI',sub:'Searchable knowledge across documents, images and voice',status:'Completed · AI retrieval',
+    cover:'assets/recall-lens-interface.svg',
+    short:'A multimodal personal knowledge assistant combining OCR, speech transcription, embeddings, semantic search and source-grounded RAG answers.',
+    body:'Recall Lens AI was built to make fragmented personal information searchable in one place. It extracts content from PDFs, screenshots, notes and voice clips, connects related information using semantic embeddings and vector search, and generates grounded responses with relevant source references. The visual shown is a tailored concept illustration, not a captured live screen.',
+    points:['Ingest and extract PDFs, screenshots, images, notes and audio with OCR and transcription','Index semantic embeddings alongside structured SQLite metadata','Search by meaning instead of relying only on exact keywords','Generate retrieval-augmented answers linked to supporting source passages','Organize related notes and concepts with searchable knowledge connections'],
+    tech:['Python','RAG','Vector Search','OCR','SQLite'],
+    github:'https://github.com/saimbashir',
+    gallery:['assets/recall-lens-interface.svg']
+  },
+  {
+    id:'campusconnect',order:8,category:['academic'],eyebrow:'University systems · database engineering',title:'Campus Connect',sub:'Campus events, registrations and smart venue allocation',status:'Full-stack development demo',
+    cover:'https://raw.githubusercontent.com/saimbashir/CampusConnect-DB/main/docs/assets/dashboard.png',
+    short:'An event-management platform with student, organizer and admin workspaces, bookings, a calendar, and a transparent venue planner.',
+    body:'Campus Connect is a university event-management platform built around an intentionally compact six-table relational database. It supports role-aware workflows, event discovery, student registration, venue booking, calendar management and SQL-backed reports. The Smart Venue Planner uses explainable capacity and scheduling rules rather than an unverified AI prediction model.',
+    points:['Student, organizer and administrator workspaces with backend-enforced access rules','Event registration, cancellation, and real seat-availability tracking','Smart Venue Planner with capacity checks, availability scoring and booking conflict prevention','Campus calendar, relational SQL reporting, live charts and CSV exports','Responsive, accessible interface with desktop and mobile layouts'],
+    tech:['JavaScript','Node.js','SQLite','SQL','Role-Based Access'],
+    github:'https://github.com/saimbashir/CampusConnect-DB',
+    gallery:[
+      {src:'https://raw.githubusercontent.com/saimbashir/CampusConnect-DB/main/docs/assets/dashboard.png',label:'Actual project dashboard'},
+      {src:'https://raw.githubusercontent.com/saimbashir/CampusConnect-DB/main/docs/assets/planner.png',label:'Smart Venue Planner'},
+      {src:'https://raw.githubusercontent.com/saimbashir/CampusConnect-DB/main/docs/assets/mobile.png',label:'Mobile interface'}
+    ]
+  },
+  {
+    id:'lifepilot',order:9,category:['ai'],eyebrow:'AI automation · full-stack product',title:'LifePilot AI',sub:'A privacy-conscious Gmail assistant with human approval',status:'Development · integrations in validation',
+    cover:'https://raw.githubusercontent.com/saimbashir/LifePilot-AI/main/docs/screenshots/preview-desktop.png',
+    short:'Connect Gmail, understand message threads, prepare Groq-powered summaries and replies, and review every draft before sending.',
+    body:'LifePilot AI combines a responsive React workspace with a Node.js backend, Gmail OAuth integration, AI-powered message assistance and a controlled approval center. The app supports Roman Urdu and English summaries, editable drafts and optional background monitoring. The image is an offline preview with fictional inbox data. PC-off monitoring and production push notifications require cloud deployment and end-to-end verification.',
+    points:['OAuth-secured Gmail connection, real inbox retrieval and threaded replies','Groq-powered contextual email summaries and professional reply suggestions with explicit consent','Editable approval center with draft-version checks before any send','Voice/text commands and Roman Urdu/English workflows','Optional monitoring, PWA, and Android Trusted Web Activity scaffold; cloud hosting not yet verified'],
+    tech:['React','TypeScript','Node.js','Gmail API','Groq','SQLite'],
+    github:'https://github.com/saimbashir/LifePilot-AI',
+    gallery:[
+      {src:'https://raw.githubusercontent.com/saimbashir/LifePilot-AI/main/docs/screenshots/preview-desktop.png',label:'Offline desktop UI preview'},
+      {src:'https://raw.githubusercontent.com/saimbashir/LifePilot-AI/main/docs/screenshots/preview-mobile.png',label:'Offline mobile UI preview'}
+    ]
+  },
+  {
+    id:'societyos',order:10,category:['academic'],eyebrow:'Multi-tenant SaaS · operations platform',title:'SocietyOS',sub:'Community and residential society management',status:'Developed · cloud validation pending',
+    cover:'assets/societyos-interface.svg',
+    short:'A role-aware community platform for residents, administrators, facilities, visitor access, maintenance and billing.',
+    body:'SocietyOS is a React and Express community-management workspace backed by relational PostgreSQL data. Separate role experiences cover residents, staff and administrators, while business rules enforce tenant boundaries and permissions. Key flows include maintenance, visitor QR passes, facility reservations, billing, notices and reporting. This project-specific concept visual is based on the source architecture, not a fabricated production screenshot.',
+    points:['Five role-specific workspaces with role permissions and tenant-aware data access','Facility scheduling, reservation approval, and overlap prevention','Visitor QR passes, check-in/out and resident communication','Maintenance tickets, status tracking and supporting uploads','Invoices, payments, analytics, notifications and audit records'],
+    tech:['React','Express','PostgreSQL','Prisma','PGlite','QR Codes'],
+    github:'https://github.com/saimbashir/SocietyOS-Web',
+    gallery:['assets/societyos-interface.svg']
+  },
+  {
+    id:'campuspath',order:11,category:['ai'],eyebrow:'EdTech · adaptive learning',title:'CampusPath AI',sub:'Course-grounded learning and personalized viva practice',status:'Tested development build',
+    cover:'assets/campuspath-interface.svg',
+    short:'An AI-assisted learning platform with source-aware tutoring, prerequisite-based practice, assessments and teacher-reviewed vivas.',
+    body:'CampusPath AI is a Python and FastAPI adaptive learning project focused on grounded course-material retrieval, concept practice, assessment records and viva preparation. Student progress and prerequisite knowledge support personalized workflows; teachers can review and approve question sets. Generative features depend on configured provider credentials. The artwork is an interface concept derived from the existing product, not a live screenshot.',
+    points:['Source-grounded retrieval and student-facing learning guidance','Prerequisite-aware practice and knowledge tracking','Formal and practice viva workflows with teacher review','Course-scoped assessments and progress analytics','FastAPI backend, persisted records and reproducible local demo'],
+    tech:['Python','FastAPI','RAG','SQLite','Adaptive Learning'],
+    github:'https://github.com/saimbashir/CampusPath-AI',
+    gallery:['assets/campuspath-interface.svg']
+  }
   }
 ];
 
@@ -111,7 +160,7 @@ function renderProjects(){
       <div class="project-meta"><h3>${esc(p.title)}</h3></div>
       <p>${esc(p.short)}</p>
       <ul class="project-tags">${p.tech.slice(0,4).map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
-      <div class="project-actions"><button type="button" data-open="${p.id}">View details ↗</button>${p.store?`<a href="${p.store}" target="_blank" rel="noreferrer">Google Play ↗</a>`:''}</div>
+      <div class="project-actions"><button type="button" data-open="${p.id}">View details ↗</button>${p.github?`<a href="${esc(p.github)}" target="_blank" rel="noopener noreferrer">Source code ↗</a>`:''}${p.store?`<a href="${p.store}" target="_blank" rel="noreferrer">Google Play ↗</a>`:''}</div>
     </div>
   </article>`).join('');
 }
@@ -163,7 +212,7 @@ function openProject(id){
     ${listBlock('More about this project',p.details)}
     ${gallerySection}
     <h4>Built / explored with</h4><ul class="project-tags">${p.tech.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
-    <div class="modal-links">${p.store?`<a class="button primary" href="${p.store}" target="_blank" rel="noreferrer">Google Play ↗</a>`:''}</div>`;
+    <div class="modal-links">${p.github?`<a class="button primary" href="${esc(p.github)}" target="_blank" rel="noopener noreferrer">View GitHub source ↗</a>`:''}${p.store?`<a class="button primary" href="${p.store}" target="_blank" rel="noreferrer">Google Play ↗</a>`:''}</div>`;
   backdrop.hidden=false;modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';setTimeout(()=>closeBtn.focus(),30);
 }
 function closeProject(){modal.classList.remove('open');modal.setAttribute('aria-hidden','true');backdrop.hidden=true;document.body.style.overflow=''}
